@@ -26,10 +26,10 @@ export default function Home() {
 			<div className={s.contact}>
 				Если у вас появились какие то трудности, пишите нам
 				<div className={s.socials}>
-					<Link href='/test'>
+					<Link href='/test' aria-label='Contact us in Telegram'>
 						<BsTelegram size={30} className={s.soc_icon} />
 					</Link>
-					<Link href='/test'>
+					<Link href='/test' aria-label='Contact us in Discord'>
 						<BsDiscord size={30} className={s.soc_icon} />
 					</Link>
 				</div>

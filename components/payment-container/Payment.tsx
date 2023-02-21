@@ -73,7 +73,11 @@ export default function Payment({ payemnts }: PaymentProps) {
 						<div ref={adressRef} className={s.adress}>
 							{chosenMethod.payment_adress}
 						</div>
-						<button onClick={copyToClipboard} className={s.copy_button}>
+						<button
+							onClick={copyToClipboard}
+							className={s.copy_button}
+							aria-label='Copy adress'
+						>
 							<AiOutlineCopy size={24} />
 						</button>
 					</div>
