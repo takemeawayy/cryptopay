@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --payment-width: 550px;
+  --background-color: #2B2D35;
+  --border-radius: 20px;
+}
+
+body {
+  @apply text-white bg-black;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  overflow-x: hidden;
+}

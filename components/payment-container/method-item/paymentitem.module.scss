@@ -1,0 +1,37 @@
+.root {
+    @apply flex items-center rounded-md p-3 cursor-pointer;
+
+    .half {
+        @apply basis-auto sm:basis-1/2 flex items-center;
+
+        &.main {
+            @apply flex-grow;
+        }
+    }
+
+    &.active {
+        @apply bg-[#181D23];
+    }
+}
+
+.icon {
+    @apply mr-4 sm:mr-7;
+}
+
+.name {
+    @apply text-sm  uppercase font-semibold sm:text-lg mr-2 sm:mr-4;
+}
+
+.blockchain {
+    @apply hidden text-[#59758D] border border-solid border-[#59758D] rounded-sm px-1 text-xs mt-1 uppercase;
+}
+
+@media (min-width: 330px) {
+    .blockchain {
+        @apply block;
+    }
+}
+
+.full_name {
+    @apply opacity-50 text-sm whitespace-nowrap; 
+}

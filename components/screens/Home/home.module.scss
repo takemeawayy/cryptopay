@@ -1,0 +1,15 @@
+.contact {
+    @apply flex items-center flex-col gap-y-3 my-4 pb-16 text-center;
+}
+
+.socials {
+    @apply flex items-center gap-4;
+}
+
+.soc_icon {
+    @apply text-white transition-colors;
+
+    &:hover {
+        @apply text-[#59758D];
+    }
+}
