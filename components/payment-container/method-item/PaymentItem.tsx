@@ -1,4 +1,4 @@
-import cn from 'classNames'
+import cn from 'classnames'
 import Image from 'next/image'
 import { Dispatch, SetStateAction } from 'react'
 

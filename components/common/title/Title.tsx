@@ -1,4 +1,4 @@
-import cn from 'classNames'
+import cn from 'classnames'
 import { JSXElementConstructor, PropsWithChildren } from 'react'
 
 import s from './title.module.scss'
