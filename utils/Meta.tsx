@@ -40,8 +40,8 @@ export default function Meta({ description, title }: MetaProps) {
 				name='twitter:card'
 				content='summary_large_image'
 			/>
-			<meta key='twitter:site' name='twitter:site' content='@site' />
-			<meta key='twitter:creator' name='twitter:creator' content='@creator' />
+			<meta key='twitter:site' name='twitter:site' content='@zelenkaguru' />
+			<meta key='twitter:creator' name='twitter:creator' content='@fantasy' />
 			<meta key='twitter:title' name='twitter:title' content={title} />
 			<meta
 				key='twitter:description'

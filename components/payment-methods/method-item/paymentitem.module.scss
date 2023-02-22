@@ -23,7 +23,7 @@
 }
 
 .blockchain {
-    @apply hidden text-[#59758D] border border-solid border-[#59758D] rounded-sm px-1 text-xs mt-1 uppercase;
+    @apply hidden text-[#59758D] border border-solid border-[#59758D] rounded-sm px-1 text-xs sm:mt-1 uppercase;
 }
 
 @media (min-width: 330px) {

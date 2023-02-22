@@ -1,0 +1,11 @@
+.root {
+    @apply flex items-center text-sm sm:text-base p-3 border border-white rounded-md;
+
+    .text {
+        @apply grow;
+    }
+
+    &.succeed {
+        @apply border-green-500;
+    }
+}

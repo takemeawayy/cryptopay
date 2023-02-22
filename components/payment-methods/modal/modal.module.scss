@@ -1,0 +1,68 @@
+.overlay {
+    @apply fixed inset-0 bg-black bg-opacity-50;
+}
+
+.content {
+    @apply rounded-default max-w-3xl w-full p-4 relative;
+    background-color: var(--background-color);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dialog_close {
+    @apply absolute right-[20px] top-[20px]; 
+}
+
+
+.trigger {
+    @apply w-full rounded-md border border-white p-3 cursor-pointer;
+}
+
+.title {
+    @apply text-sm sm:text-lg;
+}
+
+.not_chosen {
+    @apply flex items-center justify-between;
+}
+
+.chosen_method {
+    @apply flex justify-between items-center;
+}
+
+.info {
+    @apply flex items-center;
+}
+
+.method_logo {
+    @apply mr-4 sm:mr-7;
+}
+
+.method_name {
+    @apply text-sm  uppercase font-semibold sm:text-lg mr-2 sm:mr-4;
+}
+
+.method_blockchain {
+    @apply text-[#59758D] border border-solid border-[#59758D] rounded-sm px-1 text-xs sm:mt-1 uppercase;
+}
+
+
+.crypto_list {
+    @apply flex flex-col max-h-96 overflow-y-scroll mt-5;
+
+    &::-webkit-scrollbar {
+        background: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 56px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+        background-clip: content-box;
+        background-color: hsl(0,0%,67%);
+    }
+}

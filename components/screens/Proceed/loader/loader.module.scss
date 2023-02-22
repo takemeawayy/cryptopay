@@ -1,0 +1,7 @@
+.root {
+    @apply flex justify-center items-center h-[300px];
+
+    span {
+        @apply animate-spin;
+    }
+}
