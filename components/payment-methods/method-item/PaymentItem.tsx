@@ -3,7 +3,7 @@ import cn from 'classnames'
 import Image from 'next/image'
 import { Dispatch, SetStateAction } from 'react'
 
-import { IPaymingMethod } from '@/components/screens/Home/Home'
+import { IPaymingMethod } from '@/components/screens/Home/data'
 
 import s from './paymentitem.module.scss'
 
